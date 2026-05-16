@@ -1,0 +1,12 @@
+{
+  "name": "hono-mock",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.11.0",
+    "hono": "^4.4.0"
+  }
+}
