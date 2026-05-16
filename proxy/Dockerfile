@@ -5,7 +5,8 @@ WORKDIR /app
 COPY package*.json /app/
 RUN npm install
 
-COPY server.js /app/
+COPY *.js /app/
+COPY src/ /app/
 
 EXPOSE 3000
 
